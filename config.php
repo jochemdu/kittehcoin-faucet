@@ -9,16 +9,16 @@
 $config = array(
 	// RPC settings:
 	// These are the settings you put into kittehcoin.conf. They allow the faucet to interact with your wallet
-	"rpc_user" => "kitteh",
-	"rpc_password" => "zomgitworks",
-	"rpc_host" => "151.225.208.231",
-	"rpc_port" => "9192",
+	"rpc_user" => "",
+	"rpc_password" => "",
+	"rpc_host" => "",
+	"rpc_port" => "",
 
 	// MySQL settings:
-	"mysql_user" => "url_url",
-	"mysql_password" => "wanad00",
-	"mysql_host" => "localhost",
-	"mysql_database" => "url_faucet", // faucet database name
+	"mysql_user" => "",
+	"mysql_password" => "",
+	"mysql_host" => "",
+	"mysql_database" => "", // faucet database name
 	"mysql_table_prefix" => "sf_", // table prefix to use
 
 	// MEOW values:

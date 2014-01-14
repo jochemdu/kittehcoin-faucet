@@ -1,0 +1,56 @@
+It's easy to create your own templates if you have basic HTML and CSS knowledge. I shall explain in short
+how you can create your own:
+
+	1. Create a single page design for your faucet.
+	2. Save the design as DESIGN_NAME.template.php inside the templates directory.
+	3. Add a PHP switch statement for the different possible Simple Faucet statuses. (see the default.template.php for the switch statement, more on the statuses below)
+	4. Add a POST form with a text input field by name 'kitteh_address' and 'captcha_code' (if you have CAPTCHAs enabled in the config)
+	5. Add any placeholder texts you'd like. (all placeholders are listed below)
+	6. Save the file and test it out.
+
+Remember you can always look at the default template if you need an example.
+
+
+SIMPLE FAUCET STATUSES:
+
+In order to display different things on the page you should make use of the status of your Simple Faucet
+install.
+
+You can get the status inside a template with the PHP call $this->status(), if you don't know how this 
+works, take a look at the default template.
+
+There are a few statuses:
+
+	- SF_STATUS_OPERATIONAL : 				Everything works and the faucet is ready to send transaction. You should display the input form on this state.
+	- SF_STATUS_PAYOUT_ACCEPTED : 			The faucet succesfully paid some MEOW to the user, display some kind of 'congratulations' screen.
+	- SF_STATUS_RPC_CONNECTION_FAILED : 	The faucet could not connect to the wallet/RPC server.
+	- SF_STATUS_MYSQL_CONNECTION_FAILED :	The faucet could not connect to the MySQL server/database.
+	- SF_STATUS_PAYOUT_DENIED :				The user tried to receive MEOW within the specified interval.
+	- SF_STATUS_INVALID_KITTEH_ADDRESS : 		The Kitteh address put in by the user is invalid.
+	- SF_STATUS_PAYOUT_ERROR :				Something went wrong whilst trying to send MEOW to the user. (this usually means the wallet is encrypted and the wrong passphrase was given)
+	- SF_STATUS_CAPTCHA_INCORRECT : 		The user failed the CAPTCHA.
+	- SF_STATUS_DRY_FAUCET : 				The faucet balance is below the threshold.
+
+
+SIMPLE FAUCET PLACEHOLDER TEXTS:
+
+You can easily display various texts and statistics by adding placeholder texts. A placeholder text looks like this: {{PAYOUT_AMOUNT}}
+
+This is a list of all placeholder texts:
+
+	- {{minimum_payout}} : 		The minimum payout amount as set in the config.
+	- {{maximum_payout}} :		The maximum payout amount as set in the config.
+	- {{payout_threshold}} : 	The payout threshold as set in the config.
+	- {{donation_address}} : 	The donation address as set in the config.
+	- {{title}} : 				The title of the Faucet as set in the config.
+	- {{balance}} : 			The current balance of the faucet.
+	- {{average_payout}} : 		The average payout.
+	- {{total_payout}} : 		The grand total of all the payouts.
+	- {{smallest_payout}} : 	The smallest payout that was ever awarded.
+	- {{largest_payout}} : 		The largest payout that was ever awarded.
+	- {{number_of_payouts}} : 	The total number of payout. (count)
+	- {{payout_amount}} : 		The payout amount to the current user. (only use this at the SF_STATUS_PAYOUT_ACCEPTED state)
+	- {{payout_address}} : 		The payout address of the current user. (only use this at the SF_STATUS_PAYOUT_ACCEPTED state)
+	- {{captcha}} : 			The CAPTCHA image. (if CAPTCHA is enabled)
+	- {{captcha_url}} : 		The CAPTCHA image URL. (if CAPTCHA is enabled)
+	- {{total_donated}} : 		The total amount donated by other users to the faucet

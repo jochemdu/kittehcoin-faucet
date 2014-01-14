@@ -1,0 +1,58 @@
+[09-Jan-2014 13:51:35 America/Chicago] PHP Warning:  require_once(/lib/jsonRPCClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/url/public_html/catnip/lib/test.php on line 2
+[09-Jan-2014 13:51:35 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/lib/jsonRPCClient.php' (include_path='.:/opt/php53/lib/php') in /home/url/public_html/catnip/lib/test.php on line 2
+[09-Jan-2014 13:52:57 America/Chicago] PHP Warning:  fopen(http://...@90.215.61.111:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[09-Jan-2014 13:52:57 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@90.215.61.111:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[09-Jan-2014 13:53:06 America/Chicago] PHP Warning:  fopen(http://...@90.215.61.111:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[09-Jan-2014 13:53:06 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@90.215.61.111:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[12-Jan-2014 06:58:06 America/Chicago] PHP Warning:  fopen(http://...@151.227.69.160:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[12-Jan-2014 06:58:06 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@151.227.69.160:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[12-Jan-2014 06:58:13 America/Chicago] PHP Warning:  fopen(http://...@151.227.69.160:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[12-Jan-2014 06:58:13 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@151.227.69.160:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[12-Jan-2014 06:58:16 America/Chicago] PHP Warning:  fopen(http://...@151.227.69.160:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[12-Jan-2014 06:58:16 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@151.227.69.160:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[12-Jan-2014 07:03:17 America/Chicago] PHP Warning:  fopen(http://...@151.227.69.160:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[12-Jan-2014 07:03:17 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@151.227.69.160:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[12-Jan-2014 11:33:31 America/Chicago] PHP Warning:  fopen(http://...@151.227.69.160:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[12-Jan-2014 11:33:31 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@151.227.69.160:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[12-Jan-2014 11:33:32 America/Chicago] PHP Warning:  fopen(http://...@151.227.69.160:9192/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Connection timed out in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[12-Jan-2014 11:33:32 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://kitteh:zomgitworks@151.227.69.160:9192/' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->__call('getinfo', Array)
+#1 /home/url/public_html/catnip/lib/test.php(7): jsonRPCClient->getinfo()
+#2 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140

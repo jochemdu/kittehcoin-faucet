@@ -1,0 +1,34 @@
+[11-Jan-2014 09:42:34 America/Chicago] PHP Fatal error:  Call to a member function getreceivedbyaddress() on a non-object in /home/url/public_html/catnip/lib/simple_faucet.php on line 226
+[11-Jan-2014 09:42:37 America/Chicago] PHP Fatal error:  Call to a member function getreceivedbyaddress() on a non-object in /home/url/public_html/catnip/lib/simple_faucet.php on line 226
+[11-Jan-2014 09:44:20 America/Chicago] PHP Warning:  fopen(http://.@:) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: operation failed in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[11-Jan-2014 09:44:20 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://:@:' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/simple_faucet.php(178): jsonRPCClient->__call('getreceivedbyad...', Array)
+#1 /home/url/public_html/catnip/lib/simple_faucet.php(178): jsonRPCClient->getreceivedbyaddress('KHi1Lf6Hi81yc61...')
+#2 /home/url/public_html/catnip/index.php(13): simple_faucet->render()
+#3 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[11-Jan-2014 09:44:25 America/Chicago] PHP Warning:  fopen(http://.@:) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: operation failed in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[11-Jan-2014 09:44:25 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://:@:' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/simple_faucet.php(178): jsonRPCClient->__call('getreceivedbyad...', Array)
+#1 /home/url/public_html/catnip/lib/simple_faucet.php(178): jsonRPCClient->getreceivedbyaddress('KHi1Lf6Hi81yc61...')
+#2 /home/url/public_html/catnip/index.php(13): simple_faucet->render()
+#3 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[11-Jan-2014 09:50:49 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/url/public_html/catnip/lib/simple_faucet.php on line 115
+[11-Jan-2014 11:31:27 America/Chicago] PHP Fatal error:  Call to undefined function getreceivedbyaddress() in /home/url/public_html/catnip/lib/simple_faucet.php on line 90
+[11-Jan-2014 11:52:04 America/Chicago] PHP Parse error:  syntax error, unexpected T_STRING in /home/url/public_html/catnip/lib/simple_faucet.php on line 90
+[11-Jan-2014 12:40:52 America/Chicago] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/url/public_html/catnip/lib/simple_faucet.php on line 183
+[11-Jan-2014 12:41:08 America/Chicago] PHP Warning:  fopen(http://.@:) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: operation failed in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 132
+[11-Jan-2014 12:41:08 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to connect to http://:@:' in /home/url/public_html/catnip/lib/jsonRPCClient.php:140
+Stack trace:
+#0 /home/url/public_html/catnip/lib/simple_faucet.php(181): jsonRPCClient->__call('getreceivedbyad...', Array)
+#1 /home/url/public_html/catnip/lib/simple_faucet.php(181): jsonRPCClient->getreceivedbyaddress('KHi1Lf6Hi81yc61...')
+#2 /home/url/public_html/catnip/index.php(13): simple_faucet->render()
+#3 {main}
+  thrown in /home/url/public_html/catnip/lib/jsonRPCClient.php on line 140
+[11-Jan-2014 12:48:57 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/url/public_html/catnip/lib/simple_faucet.php on line 91
+[11-Jan-2014 12:49:10 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/url/public_html/catnip/lib/simple_faucet.php on line 91
+[11-Jan-2014 18:09:25 America/Chicago] PHP Parse error:  syntax error, unexpected T_ELSE in /home/url/public_html/catnip/lib/simple_faucet.php on line 158
+[11-Jan-2014 18:10:01 America/Chicago] PHP Parse error:  syntax error, unexpected T_ELSE, expecting T_FUNCTION in /home/url/public_html/catnip/lib/simple_faucet.php on line 185
